@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+ /* background:#286DA8 ;*/
+ background: linear-gradient(to bottom, #286DA8 40%, #328CC1 60%);
+}
+.navbar{
+  background:#0B3C5D;
+  padding-left: 450px;
+}
+.container {
+ /* background:#C5C1C0;*/
+ background: #CDCDCD;
+  max-width: 450px;
+  overflow: auto;
+  min-height: 100px;
+ border: 1px solid steelblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+.grocery-item {
+  background: #E9E9E9;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.delete-btn{
+  color: #6D7993;
+  position: absolute;
+  right: 450px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.purchase-btn{
+  position: absolute;
+  right: 500px;
+}
+.purchased {
+  text-decoration: line-through;
+}
